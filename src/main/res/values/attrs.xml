@@ -1,0 +1,28 @@
+<resources>
+
+    <declare-styleable name="ShapableImageView">
+        <attr name="maskDrawable" format="reference" />
+        <attr name="borderDrawable" format="reference" />
+        <attr name="desaturateOnPress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CheckableImageButton">
+        <attr name="type">
+            <enum name="radio" value="0" />
+            <enum name="check" value="1" />
+        </attr>
+        <attr name="animate" format="boolean"/>
+        <attr name="checkedSrc" format="reference"/>
+        <attr name="uncheckedSrc" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="TextAndColorSwitchableButton">
+        <attr name="onTextColor" format="color"/>
+        <attr name="offTextColor" format="color"/>
+        <attr name="onBackground" format="reference"/>
+        <attr name="offBackground" format="reference"/>
+        <attr name="onText" format="reference|string"/>
+        <attr name="offText" format="reference|string"/>
+    </declare-styleable>
+
+</resources>
